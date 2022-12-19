@@ -15,9 +15,17 @@
             Console.WriteLine(emp2.ToString)
 
             Dim emp3 As New Programmer("Vidi", "Aldiana", DateTime.Now, 5600000, 100000)
+            'Console.WriteLine(emp3.ToString)
+
+            emp3.Transportasi = 2_000_000
+            'Console.WriteLine(emp3.ToString)
+
+            emp3.Transportasi = 500   _000
             Console.WriteLine(emp3.ToString)
 
-            Dim TotalBasicSalary As Integer
+            emp3.BasicSalary = 7_000_000
+            Console.WriteLine(emp3.ToString)
+
 
         End Sub
     End Module
